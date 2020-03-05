@@ -216,45 +216,4 @@ Wire Wire Line
 	2900 6050 3350 6050
 Wire Wire Line
 	2900 6150 3350 6150
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5E6313B3
-P 900 3850
-F 0 "SW?" H 900 4135 50  0000 C CNN
-F 1 "SW_Push" H 900 4044 50  0000 C CNN
-F 2 "" H 900 4050 50  0001 C CNN
-F 3 "~" H 900 4050 50  0001 C CNN
-	1    900  3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E634A34
-P 700 4050
-F 0 "#PWR?" H 700 3800 50  0001 C CNN
-F 1 "GND" H 705 3877 50  0000 C CNN
-F 2 "" H 700 4050 50  0001 C CNN
-F 3 "" H 700 4050 50  0001 C CNN
-	1    700  4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E638A0E
-P 1100 3950
-F 0 "C?" H 1192 3996 50  0000 L CNN
-F 1 "100n" H 1192 3905 50  0000 L CNN
-F 2 "" H 1100 3950 50  0001 C CNN
-F 3 "~" H 1100 3950 50  0001 C CNN
-	1    1100 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 1100 3850
-Wire Wire Line
-	1100 4050 700  4050
-Wire Wire Line
-	700  3850 700  4050
-Connection ~ 700  4050
-Wire Wire Line
-	1100 3850 1600 3850
 $EndSCHEMATC
