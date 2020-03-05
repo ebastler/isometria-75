@@ -4,3 +4,6 @@
 [submodule "isometric-75-pcb-iso/MX_Alps_Hybrid.pretty"]
 	path = isometric-75-pcb-iso/MX_Alps_Hybrid.pretty
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "isometric-75-pcb-iso/Connectors_JST.pretty"]
+	path = isometric-75-pcb-iso/Connectors_JST.pretty
+	url = https://github.com/KiCad/Connectors_JST.pretty
