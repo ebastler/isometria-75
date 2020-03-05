@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -257,4 +257,57 @@ Wire Wire Line
 Connection ~ 700  4050
 Wire Wire Line
 	1100 3850 1600 3850
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5E640E55
+P 1300 2050
+F 0 "J?" H 1300 1650 50  0000 C CNN
+F 1 "Conn_01x05" H 1450 1750 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal" H 1300 2050 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1300 2050 50  0001 C CNN
+	1    1300 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E644973
+P 2100 2300
+F 0 "#PWR?" H 2100 2050 50  0001 C CNN
+F 1 "GND" H 2105 2127 50  0000 C CNN
+F 2 "" H 2100 2300 50  0001 C CNN
+F 3 "" H 2100 2300 50  0001 C CNN
+	1    2100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E645E1A
+P 2100 1800
+F 0 "#PWR?" H 2100 1650 50  0001 C CNN
+F 1 "+5V" H 2115 1973 50  0000 C CNN
+F 2 "" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0001 C CNN
+	1    2100 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 2150 2    50   Input ~ 0
+USB-D-
+Text GLabel 1500 2050 2    50   Input ~ 0
+USB-D+
+Text GLabel 1500 1850 2    50   Input ~ 0
+Vsense
+Wire Wire Line
+	2100 1950 2100 1800
+Wire Wire Line
+	1500 1950 2100 1950
+Wire Wire Line
+	2100 2250 2100 2300
+Wire Wire Line
+	1500 2250 2100 2250
+$Sheet
+S 7550 3000 800  600 
+U 5E64D9E7
+F0 "matrix" 50
+F1 "matrix.sch" 50
+$EndSheet
 $EndSCHEMATC
