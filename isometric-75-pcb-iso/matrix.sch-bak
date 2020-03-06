@@ -253,40 +253,36 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-LED MX?
 U 1 1 5E740011
-P 1650 3200
-F 0 "MX?" H 1732 3424 60  0000 C CNN
-F 1 "MX-LED" H 1732 3350 20  0000 C CNN
-F 2 "" H 1025 3175 60  0001 C CNN
-F 3 "" H 1025 3175 60  0001 C CNN
-	1    1650 3200
+P 1650 1800
+F 0 "MX?" H 1732 2024 60  0000 C CNN
+F 1 "MX-LED" H 1732 1950 20  0000 C CNN
+F 2 "" H 1025 1775 60  0001 C CNN
+F 3 "" H 1025 1775 60  0001 C CNN
+	1    1650 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 5E740017
-P 1500 3500
-F 0 "D?" V 1700 3600 50  0000 R CNN
-F 1 "1N4148" V 1455 3432 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-323F" V 1500 3500 50  0001 C CNN
-F 3 "~" V 1500 3500 50  0001 C CNN
-	1    1500 3500
+P 1500 2100
+F 0 "D?" V 1700 2200 50  0000 R CNN
+F 1 "1N4148" V 1455 2032 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323F" V 1500 2100 50  0001 C CNN
+F 3 "~" V 1500 2100 50  0001 C CNN
+	1    1500 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5E74001D
-P 1750 3350
-F 0 "R?" H 1809 3396 50  0000 L CNN
-F 1 "330" H 1809 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3350 50  0001 C CNN
-F 3 "~" H 1750 3350 50  0001 C CNN
-	1    1750 3350
+P 1750 1950
+F 0 "R?" H 1809 1996 50  0000 L CNN
+F 1 "330" H 1809 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 1950 50  0001 C CNN
+F 3 "~" H 1750 1950 50  0001 C CNN
+	1    1750 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 3350 1500 3350
-Wire Wire Line
-	1500 3350 1500 3400
 $Comp
 L MX_Alps_Hybrid:MX-LED MX?
 U 1 1 5E740025
@@ -2905,7 +2901,7 @@ F 3 "~" H 9800 1460 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	950  2200 2050 2200
+	950  2200 1500 2200
 Wire Wire Line
 	2050 2200 2600 2200
 Connection ~ 2050 2200
@@ -2980,11 +2976,6 @@ Connection ~ 2600 2900
 Wire Wire Line
 	2050 2900 950  2900
 Connection ~ 2050 2900
-Wire Wire Line
-	950  3600 1500 3600
-Wire Wire Line
-	1500 3600 2050 3600
-Connection ~ 1500 3600
 Wire Wire Line
 	2050 3600 2600 3600
 Connection ~ 2050 3600
@@ -3345,10 +3336,7 @@ Connection ~ 2550 1750
 Wire Wire Line
 	1800 1050 1950 1050
 Wire Wire Line
-	1950 3150 1800 3150
-Wire Wire Line
 	1950 3850 1800 3850
-Connection ~ 1950 3150
 Wire Wire Line
 	1950 3850 1950 4550
 Wire Wire Line
@@ -3461,7 +3449,7 @@ Wire Wire Line
 	2750 1900 2200 1900
 Connection ~ 2750 1900
 Wire Wire Line
-	2200 1900 1100 1900
+	2200 1900 1650 1900
 Connection ~ 2200 1900
 Wire Wire Line
 	1100 2600 2200 2600
@@ -3503,12 +3491,7 @@ Wire Wire Line
 	8250 2600 9350 2600
 Wire Wire Line
 	9350 3300 8800 3300
-Connection ~ 1650 3300
-Wire Wire Line
-	1650 3300 1100 3300
 Connection ~ 2200 3300
-Wire Wire Line
-	2200 3300 1650 3300
 Connection ~ 2750 3300
 Wire Wire Line
 	2750 3300 2200 3300
@@ -3634,13 +3617,11 @@ Wire Wire Line
 Wire Wire Line
 	2550 2450 2550 1750
 Wire Wire Line
-	1950 3150 1950 3850
-Wire Wire Line
 	1450 2450 1450 1750
 Wire Wire Line
 	1450 1750 1450 1050
 Wire Wire Line
-	1950 1050 1950 3150
+	1950 1050 1950 1750
 Wire Wire Line
 	2550 1750 2550 1050
 Wire Wire Line
@@ -3935,11 +3916,6 @@ Wire Wire Line
 Connection ~ 8900 4150
 Wire Wire Line
 	8900 4150 8350 4150
-Wire Wire Line
-	1200 3450 1750 3450
-Connection ~ 1750 3450
-Wire Wire Line
-	1750 3450 2300 3450
 Connection ~ 2300 3450
 Wire Wire Line
 	2300 3450 2850 3450
@@ -4018,7 +3994,7 @@ Connection ~ 8350 2750
 Wire Wire Line
 	8350 2750 7800 2750
 Wire Wire Line
-	1200 2050 2300 2050
+	1200 2050 1750 2050
 Connection ~ 2300 2050
 Wire Wire Line
 	2300 2050 2850 2050
@@ -4109,8 +4085,6 @@ Wire Wire Line
 	1750 4650 1750 4600
 Wire Wire Line
 	1750 3950 1750 3900
-Wire Wire Line
-	1750 3250 1750 3200
 Wire Wire Line
 	2300 4650 2300 4600
 Wire Wire Line
@@ -4563,4 +4537,30 @@ F 3 "" H 11000 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 11000 800 
+Connection ~ 1650 1900
+Wire Wire Line
+	1650 1900 1100 1900
+Connection ~ 1500 2200
+Wire Wire Line
+	1500 2200 2050 2200
+Connection ~ 1750 2050
+Wire Wire Line
+	1750 2050 2300 2050
+Wire Wire Line
+	1600 1950 1500 1950
+Wire Wire Line
+	1500 1950 1500 2000
+Wire Wire Line
+	950  3600 2050 3600
+Wire Wire Line
+	1100 3300 2200 3300
+Wire Wire Line
+	1200 3450 2300 3450
+Wire Wire Line
+	1750 1800 1750 1850
+Wire Wire Line
+	1800 1750 1950 1750
+Connection ~ 1950 1750
+Wire Wire Line
+	1950 1750 1950 3850
 $EndSCHEMATC
