@@ -66,27 +66,6 @@ Wire Wire Line
 Connection ~ 2200 6650
 Connection ~ 2100 6650
 $Comp
-L Device:R_Small R1
-U 1 1 5E624452
-P 2400 3550
-F 0 "R1" H 2550 3600 50  0000 L CNN
-F 1 "100" H 2550 3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2400 3550 50  0001 C CNN
-F 3 "~" H 2400 3550 50  0001 C CNN
-	1    2400 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 3650 2500 3450
-Wire Wire Line
-	2500 3450 2400 3450
-Wire Wire Line
-	2300 3450 2300 3650
-Connection ~ 2300 3650
-Wire Wire Line
-	2300 3450 2400 3450
-Connection ~ 2400 3450
-$Comp
 L power:+3.3V #PWR01
 U 1 1 5E625D2A
 P 650 2800
@@ -155,12 +134,12 @@ $EndComp
 $Comp
 L Device:C_Small C6
 U 1 1 5E62AB00
-P 2250 2950
-F 0 "C6" H 2342 2996 50  0000 L CNN
-F 1 "100n" H 2342 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2250 2950 50  0001 C CNN
-F 3 "~" H 2250 2950 50  0001 C CNN
-	1    2250 2950
+P 3050 3750
+F 0 "C6" H 3142 3796 50  0000 L CNN
+F 1 "100n" H 3142 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 3750 50  0001 C CNN
+F 3 "~" H 3050 3750 50  0001 C CNN
+	1    3050 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -185,17 +164,7 @@ Connection ~ 1050 2850
 Wire Wire Line
 	1450 2850 1850 2850
 Connection ~ 1450 2850
-Wire Wire Line
-	1850 2850 2250 2850
 Connection ~ 1850 2850
-Wire Wire Line
-	2250 2850 2650 2850
-Connection ~ 2250 2850
-Wire Wire Line
-	2650 3050 2250 3050
-Wire Wire Line
-	2250 3050 1850 3050
-Connection ~ 2250 3050
 Wire Wire Line
 	1850 3050 1450 3050
 Connection ~ 1850 3050
@@ -310,4 +279,51 @@ U 5E64D9E7
 F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
+Wire Wire Line
+	1850 3050 2650 3050
+Wire Wire Line
+	1850 2850 2650 2850
+Wire Wire Line
+	2500 3550 2300 3550
+Wire Wire Line
+	2300 3550 2300 3650
+Wire Wire Line
+	2500 3550 2500 3650
+Connection ~ 2300 3650
+Wire Wire Line
+	3050 3450 3050 3650
+$Comp
+L power:GND #PWR0101
+U 1 1 5EFE1B26
+P 3050 3850
+F 0 "#PWR0101" H 3050 3600 50  0001 C CNN
+F 1 "GND" H 3055 3677 50  0000 C CNN
+F 2 "" H 3050 3850 50  0001 C CNN
+F 3 "" H 3050 3850 50  0001 C CNN
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5E624452
+P 2600 3450
+F 0 "R1" H 2650 3400 50  0000 L CNN
+F 1 "100" H 2650 3300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2600 3450 50  0001 C CNN
+F 3 "~" H 2600 3450 50  0001 C CNN
+	1    2600 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 3450 2500 3550
+Connection ~ 2500 3550
+Wire Wire Line
+	2700 3450 2700 3600
+Wire Wire Line
+	2700 3600 2400 3600
+Wire Wire Line
+	2400 3600 2400 3650
+Wire Wire Line
+	3050 3450 2700 3450
+Connection ~ 2700 3450
 $EndSCHEMATC
