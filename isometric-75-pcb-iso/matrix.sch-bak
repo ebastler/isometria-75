@@ -4563,4 +4563,8 @@ Wire Wire Line
 Connection ~ 1950 1750
 Wire Wire Line
 	1950 1750 1950 3850
+Text Notes 10150 1900 0    50   ~ 0
+Told you so...
+Text Notes 7400 7500 0    50   ~ 0
+Keyboard Matrix (ISO, 82 key) + LED + Rotary
 $EndSCHEMATC
