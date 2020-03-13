@@ -206,60 +206,57 @@ $EndComp
 $Comp
 L Device:C_Small C110
 U 1 1 5E7D4A32
-P 2400 5250
-F 0 "C110" H 2492 5296 50  0000 L CNN
-F 1 "100n" H 2492 5205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2400 5250 50  0001 C CNN
-F 3 "~" H 2400 5250 50  0001 C CNN
-	1    2400 5250
+P 1200 5250
+F 0 "C110" H 1292 5296 50  0000 L CNN
+F 1 "100n" H 1292 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1200 5250 50  0001 C CNN
+F 3 "~" H 1200 5250 50  0001 C CNN
+	1    1200 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R103
 U 1 1 5E7D5EC0
-P 2150 5250
-F 0 "R103" H 2200 5200 50  0000 L CNN
-F 1 "10k" H 2200 5100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2150 5250 50  0001 C CNN
-F 3 "~" H 2150 5250 50  0001 C CNN
-	1    2150 5250
+P 950 5250
+F 0 "R103" H 1000 5200 50  0000 L CNN
+F 1 "10k" H 1000 5100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 950 5250 50  0001 C CNN
+F 3 "~" H 950 5250 50  0001 C CNN
+	1    950  5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R102
 U 1 1 5E7D6E4F
-P 2150 5050
-F 0 "R102" H 2200 5000 50  0000 L CNN
-F 1 "10k" H 2200 4900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2150 5050 50  0001 C CNN
-F 3 "~" H 2150 5050 50  0001 C CNN
-	1    2150 5050
+P 950 5050
+F 0 "R102" H 1000 5000 50  0000 L CNN
+F 1 "10k" H 1000 4900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 950 5050 50  0001 C CNN
+F 3 "~" H 950 5050 50  0001 C CNN
+	1    950  5050
 	1    0    0    -1  
 $EndComp
-Connection ~ 2150 5150
-Text GLabel 2100 4950 0    50   Input ~ 0
+Connection ~ 950  5150
+Text GLabel 900  4950 0    50   Input ~ 0
 Vsense
 Wire Wire Line
-	2150 4950 2100 4950
+	950  4950 900  4950
 $Comp
 L power:GND #PWR0112
 U 1 1 5E7DB3B5
-P 2150 5350
-F 0 "#PWR0112" H 2150 5100 50  0001 C CNN
-F 1 "GND" H 2155 5177 50  0000 C CNN
-F 2 "" H 2150 5350 50  0001 C CNN
-F 3 "" H 2150 5350 50  0001 C CNN
-	1    2150 5350
+P 950 5350
+F 0 "#PWR0112" H 950 5100 50  0001 C CNN
+F 1 "GND" H 955 5177 50  0000 C CNN
+F 2 "" H 950 5350 50  0001 C CNN
+F 3 "" H 950 5350 50  0001 C CNN
+	1    950  5350
 	1    0    0    -1  
 $EndComp
-Connection ~ 2150 5350
-Connection ~ 2400 5150
+Connection ~ 950  5350
 Wire Wire Line
-	2400 5150 2850 5150
+	950  5150 1200 5150
 Wire Wire Line
-	2150 5150 2400 5150
-Wire Wire Line
-	2150 5350 2400 5350
+	950  5350 1200 5350
 $Comp
 L Device:R_Small R104
 U 1 1 5E6454D0
@@ -352,9 +349,9 @@ Wire Wire Line
 	1750 1050 1750 900 
 Text GLabel 1150 950  2    50   Output ~ 0
 Vsense
-Text GLabel 1150 1150 2    50   Input ~ 0
+Text GLabel 1150 1150 2    50   BiDi ~ 0
 USB-D+
-Text GLabel 1150 1250 2    50   Input ~ 0
+Text GLabel 1150 1250 2    50   BiDi ~ 0
 USB-D-
 $Comp
 L power:+5V #PWR0104
@@ -747,4 +744,35 @@ F 3 "~" H 1950 4350 50  0001 C CNN
 	1    1950 4150
 	1    0    0    -1  
 $EndComp
+Text GLabel 4600 5050 2    50   Input ~ 0
+ROTB
+Text GLabel 4600 5150 2    50   Input ~ 0
+ROTA
+Wire Wire Line
+	4150 5050 4600 5050
+Wire Wire Line
+	4150 5150 4600 5150
+Text GLabel 2500 6150 0    50   Input ~ 0
+COL15
+Text GLabel 2500 6050 0    50   Input ~ 0
+COL14
+Connection ~ 1200 5150
+Text GLabel 2500 5250 0    50   Input ~ 0
+COL13
+Wire Wire Line
+	1200 5150 2850 5150
+Wire Wire Line
+	2500 5250 2850 5250
+Wire Wire Line
+	2500 6050 2850 6050
+Wire Wire Line
+	2500 6150 2850 6150
+Text GLabel 2500 5050 0    50   Input ~ 0
+COL12
+Wire Wire Line
+	2500 5050 2850 5050
+Text GLabel 4600 5350 2    50   Input ~ 0
+COL11
+Wire Wire Line
+	4150 5350 4600 5350
 $EndSCHEMATC
