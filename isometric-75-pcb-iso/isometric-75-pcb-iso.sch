@@ -338,9 +338,9 @@ Wire Wire Line
 	1750 1050 1750 900 
 Text GLabel 1150 950  2    50   Output ~ 0
 Vsense
-Text GLabel 1150 1150 2    50   BiDi ~ 0
-USB-D+
 Text GLabel 1150 1250 2    50   BiDi ~ 0
+USB-D+
+Text GLabel 1150 1150 2    50   BiDi ~ 0
 USB-D-
 $Comp
 L power:+5V #PWR0104
@@ -839,10 +839,8 @@ Text GLabel 2500 5950 0    50   Input ~ 0
 ROW2
 Text GLabel 2500 5850 0    50   Input ~ 0
 ROW1
-Text GLabel 2500 5750 0    50   Input ~ 0
+Text GLabel 2500 5350 0    50   Input ~ 0
 ROW0
-Wire Wire Line
-	2500 5750 2850 5750
 Wire Wire Line
 	2500 5850 2850 5850
 Wire Wire Line
@@ -857,4 +855,69 @@ Text GLabel 4600 6550 2    50   Output ~ 0
 UGLED
 Wire Wire Line
 	4600 6550 4150 6550
+Wire Wire Line
+	2500 5350 2850 5350
+$Comp
+L Connector:Conn_01x06_Male J101
+U 1 1 5EB0D7C5
+P 1300 6000
+F 0 "J101" H 1408 6281 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 900 5850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1300 6000 50  0001 C CNN
+F 3 "~" H 1300 6000 50  0001 C CNN
+	1    1300 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5750 2050 6300
+Wire Wire Line
+	2050 6300 1500 6300
+Wire Wire Line
+	2050 5750 2850 5750
+Wire Wire Line
+	1500 6200 2000 6200
+Wire Wire Line
+	2000 6200 2000 5650
+Wire Wire Line
+	2000 5650 2850 5650
+Wire Wire Line
+	1950 5550 1950 6100
+Wire Wire Line
+	1950 6100 1500 6100
+Wire Wire Line
+	1950 5550 2850 5550
+Wire Wire Line
+	1500 6000 1900 6000
+Wire Wire Line
+	1900 6000 1900 5450
+Wire Wire Line
+	1900 5450 2850 5450
+$Comp
+L power:GND #PWR0120
+U 1 1 5EB39B3C
+P 1750 5800
+F 0 "#PWR0120" H 1750 5550 50  0001 C CNN
+F 1 "GND" H 1755 5627 50  0000 C CNN
+F 2 "" H 1750 5800 50  0001 C CNN
+F 3 "" H 1750 5800 50  0001 C CNN
+	1    1750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5900 1500 5900
+Wire Wire Line
+	1500 5800 1750 5800
+Wire Wire Line
+	1600 5700 1600 5900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EB54C29
+P 1600 5700
+F 0 "#PWR?" H 1600 5550 50  0001 C CNN
+F 1 "+3.3V" H 1615 5873 50  0000 C CNN
+F 2 "" H 1600 5700 50  0001 C CNN
+F 3 "" H 1600 5700 50  0001 C CNN
+	1    1600 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
