@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -278,7 +278,7 @@ Text GLabel 4600 5450 2    50   Output ~ 0
 SPI_NSS
 Text GLabel 4600 5550 2    50   Output ~ 0
 SPI_SCK
-Text GLabel 4600 5650 2    50   Output ~ 0
+Text GLabel 4600 5650 2    50   Input ~ 0
 SPI_MISO
 Text GLabel 4600 5750 2    50   Output ~ 0
 SPI_MOSI
@@ -324,7 +324,7 @@ Text GLabel 2400 1350 2    50   Input ~ 0
 SPI_NSS
 Text GLabel 2400 1250 2    50   Input ~ 0
 SPI_SCK
-Text GLabel 2400 1150 2    50   Input ~ 0
+Text GLabel 2400 1150 2    50   Output ~ 0
 SPI_MISO
 Text GLabel 2400 1050 2    50   Input ~ 0
 SPI_MOSI
@@ -823,4 +823,38 @@ F 3 "~" H 2200 1250 50  0001 C CNN
 	1    2200 1250
 	-1   0    0    1   
 $EndComp
+Text GLabel 2500 4850 0    50   Input ~ 0
+ROW5
+Text GLabel 2500 4750 0    50   Input ~ 0
+ROW4
+Text GLabel 2500 4650 0    50   Input ~ 0
+ROW3
+Wire Wire Line
+	2500 4850 2850 4850
+Wire Wire Line
+	2500 4750 2850 4750
+Wire Wire Line
+	2500 4650 2850 4650
+Text GLabel 2500 5950 0    50   Input ~ 0
+ROW2
+Text GLabel 2500 5850 0    50   Input ~ 0
+ROW1
+Text GLabel 2500 5750 0    50   Input ~ 0
+ROW0
+Wire Wire Line
+	2500 5750 2850 5750
+Wire Wire Line
+	2500 5850 2850 5850
+Wire Wire Line
+	2500 5950 2850 5950
+$Sheet
+S 6550 650  1500 1150
+U 5E6E13F7
+F0 "underglow" 50
+F1 "underglow.sch" 50
+$EndSheet
+Text GLabel 4600 6550 2    50   Output ~ 0
+UGLED
+Wire Wire Line
+	4600 6550 4150 6550
 $EndSCHEMATC

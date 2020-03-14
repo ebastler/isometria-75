@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -278,7 +278,7 @@ Text GLabel 4600 5450 2    50   Output ~ 0
 SPI_NSS
 Text GLabel 4600 5550 2    50   Output ~ 0
 SPI_SCK
-Text GLabel 4600 5650 2    50   Output ~ 0
+Text GLabel 4600 5650 2    50   Input ~ 0
 SPI_MISO
 Text GLabel 4600 5750 2    50   Output ~ 0
 SPI_MOSI
@@ -290,17 +290,6 @@ Wire Wire Line
 	4150 5550 4600 5550
 Wire Wire Line
 	4150 5450 4600 5450
-$Comp
-L Connector_Generic:Conn_01x06 J_SPI
-U 1 1 5E674686
-P 2200 1250
-F 0 "J_SPI" H 2118 725 50  0000 C CNN
-F 1 "Conn_01x06" H 2118 816 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal" H 2200 1250 50  0001 C CNN
-F 3 "~" H 2200 1250 50  0001 C CNN
-	1    2200 1250
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 5E677479
@@ -335,7 +324,7 @@ Text GLabel 2400 1350 2    50   Input ~ 0
 SPI_NSS
 Text GLabel 2400 1250 2    50   Input ~ 0
 SPI_SCK
-Text GLabel 2400 1150 2    50   Input ~ 0
+Text GLabel 2400 1150 2    50   Output ~ 0
 SPI_MISO
 Text GLabel 2400 1050 2    50   Input ~ 0
 SPI_MOSI
@@ -365,11 +354,11 @@ F 3 "" H 1750 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J_USB
+L Connector_Generic:Conn_01x05 J_101
 U 1 1 5E640E55
 P 950 1150
-F 0 "J_USB" H 950 750 50  0000 C CNN
-F 1 "Conn_01x05" H 1100 850 50  0000 C CNN
+F 0 "J_101" H 950 750 50  0000 C CNN
+F 1 "USB" H 1100 850 50  0000 C CNN
 F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 950 1150 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 950 1150 50  0001 C CNN
 	1    950  1150
@@ -823,4 +812,49 @@ Text GLabel 4600 6450 2    50   Input ~ 0
 COL7
 Wire Wire Line
 	4600 6450 4150 6450
+$Comp
+L Connector_Generic:Conn_01x06 J_102
+U 1 1 5E674686
+P 2200 1250
+F 0 "J_102" H 2118 725 50  0000 C CNN
+F 1 "SPI" H 2118 816 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal" H 2200 1250 50  0001 C CNN
+F 3 "~" H 2200 1250 50  0001 C CNN
+	1    2200 1250
+	-1   0    0    1   
+$EndComp
+Text GLabel 2500 4850 0    50   Input ~ 0
+ROW5
+Text GLabel 2500 4750 0    50   Input ~ 0
+ROW4
+Text GLabel 2500 4650 0    50   Input ~ 0
+ROW3
+Wire Wire Line
+	2500 4850 2850 4850
+Wire Wire Line
+	2500 4750 2850 4750
+Wire Wire Line
+	2500 4650 2850 4650
+Text GLabel 2500 5950 0    50   Input ~ 0
+ROW2
+Text GLabel 2500 5850 0    50   Input ~ 0
+ROW1
+Text GLabel 2500 5750 0    50   Input ~ 0
+ROW0
+Wire Wire Line
+	2500 5750 2850 5750
+Wire Wire Line
+	2500 5850 2850 5850
+Wire Wire Line
+	2500 5950 2850 5950
+$Sheet
+S 6550 650  1500 1150
+U 5E6E13F7
+F0 "underglow" 50
+F1 "underglow.sch" 50
+$EndSheet
+Text GLabel 4600 6550 2    50   Output ~ 0
+UGLED
+Wire Wire Line
+	4600 6550 4150 6550
 $EndSCHEMATC
