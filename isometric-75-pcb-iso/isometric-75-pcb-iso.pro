@@ -1,4 +1,4 @@
-update=14.03.2020 23:12:01
+update=15.03.2020 00:57:37
 version=1
 last_client=kicad
 [general]
@@ -22,7 +22,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.2032
+MinTrackWidth=0.254
 MinViaDiameter=0.6
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
@@ -240,6 +240,17 @@ dPairViaGap=0.25
 Name=Power
 Clearance=0.1905
 TrackWidth=0.508
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.254
+dPairGap=0.254
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=USB
+Clearance=0.1905
+TrackWidth=0.254
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
