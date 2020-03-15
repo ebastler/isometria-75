@@ -18,7 +18,7 @@ The case files will follow once they are ready - I am designing those in Autodes
  * 17 SK6812 Mini can be soldered to the bottom of the board for underglow.
  * A rotary encoder sits in the top right corner and the push-button is wired to the controller (Row 0 Column 15). 
  * The USB-C connector is placed on a small PCB on it's own, which can be replaced by a battery management board later on. Maybe.
- * A STM32F072CBT6 controller with native cyrstal-less USB and a lot of IO for various things
+ * A STM32F072CBT6 controller with native crystal-less USB and a lot of IO for various things
  * An SPI interface is wired to a second connector, allowing for a SPI Bluetooth LE board to be added
  * 4 GPIOs (among them USART1 Rx and Tx) are available on a header - if you want even more features
 
