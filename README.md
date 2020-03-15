@@ -12,7 +12,7 @@ The case files will follow once they are ready - I am designing those in Autodes
  ![render](https://raw.githubusercontent.com/ebastler/isometric-75/master/render/overview_top.png)
 
  ## Features
-
+ * CNC'd top shell with integrated 4 mm plate (obviously, with cutouts for switch retention and PCB mount stabs)
  * The PCB is equipped to fit 82 cherry MX-style switches
  * One 3 mm LED per switch (monochrome, dimmable only as one group)
  * 17 SK6812 Mini can be soldered to the bottom of the board for underglow.
