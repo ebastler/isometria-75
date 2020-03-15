@@ -16,6 +16,7 @@ The case files will follow once they are ready - I am designing those in Autodes
  * 17 SK6812 Mini can be soldered to the bottom of the board for underglow.
  * A rotary encoder sits in the top right corner and the push-button is wired to the controller (Row 0 Column 15). 
  * The USB-C connector is placed on a small PCB on it's own, which can be replaced by a battery management board later on. Maybe.
+ * A STM32F072CBT6 controller with native cyrstal-less USB and a lot of IO for various things
  * An SPI interface is wired to a second connector, allowing for a SPI Bluetooth LE board to be added
  * 4 GPIOs (among them USART1 Rx and Tx) are available on a header - if you want even more features
 
@@ -35,6 +36,11 @@ The bottom shell follows the minimalist design of the top shell, consisting only
 
  * Why did you clone the Evolv/Satisfaction?
 
-   I made my own design choices, and redesigned everything from scratch - however the layout of the evolv heavily influenced my design. I fell in love with it's design the first time I saw it, but it was both too premium for me, and lacked ISO support (for good reasons). So I decided to mostly adopt it's layout with slight changes, and design a case which follows my design ideals - ending up with a very similar board.
+   I made my own design choices, and redesigned everything from scratch - however the evolv heavily influenced my design. I fell in love with it's design the first time I saw it, but it was both too premium for me, and lacked ISO support (for good reasons). So I decided to mostly adopt it's layout with slight changes, and design a case which follows my design ideals - ending up with a very similar board.
 
 For any other questions, or problems with my board (if you decided to build one yourself) - feel free to contact me. I'm idling around and occasionally check my PMs on freenode (ebastler), am active on reddit (the_ebastler) and on discord (ebastler#8966).
+
+## Big thanks to:
+ - ai03 for both his [awesome tutorial](https://wiki.ai03.me/books/pcb-design/chapter/pcb-designer-guide) as well as his various footprints I used in my design - I don't know if I had been able to design this without his help.
+ - The awesome people on grabcad for the [MX switch](https://grabcad.com/library/cherry-mx-switches-mx-1), [Cherry Stab](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and [pushbutton](https://grabcad.com/library/5mm-button-switch-1) models, [JST SH models](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823) and [WS6812 Mini models](https://grabcad.com/library/smd-ws2812b-led-1) which made my renders a whole lot prettier.
+  - People on the MechKeys and Mechanische Tastaturen Deutschland discord servers who tirelessly answered my questions - from the noobiest to the most complicated ones.
