@@ -9,7 +9,10 @@ The case files will follow once they are ready - I am designing those in Autodes
  
  The name isometric<sup>75</sup> has it's origin in the greek noun ἰσομετρία (in latin letters: isometria), meaning "equality of measure" [[1]](http://perseus.uchicago.edu/cgi-bin/philologic/getobject.pl?c.35:6:59.LSJ). This word ended up being included in various languages, among them english, with the same meaning. I chose it for two reasons - because this keyboard is only available in an ISO layout (sorry ANSI users - for once it is ne ANSI avail), but also, because I paid attention to only use u/4 spaces throughout my board. You will have a hard time finding any distance on it that's not a multiple of 4.75 mm.
 
- ![render](https://raw.githubusercontent.com/ebastler/isometric-75/master/render/overview_top.png)
+|![render_overview](/render/overview_top.png) |![render_detail](/render/detail_top.png)|
+|:--------------------------------------------|:---------------------------------------|
+|The whole top shell                          |Detail of the upper right corner        |
+
 
  ## Features
  * CNC'd top shell with integrated 4 mm plate (obviously, with cutouts for switch retention and PCB mount stabs)
@@ -38,11 +41,11 @@ The bottom shell follows the minimalist design of the top shell, consisting only
 
  * Why did you clone the Evolv/Satisfaction?
 
-   I made my own design choices, and redesigned everything from scratch - however the evolv heavily influenced my design. I fell in love with it's design the first time I saw it, but it was both too premium for me, and lacked ISO support (for good reasons). So I decided to mostly adopt it's layout with slight changes, and design a case which follows my design ideals - ending up with a very similar board.
+   I made my own design choices, and redesigned everything from scratch - however the evolv heavily influenced my design. I fell in love with it the first time I saw it, but it had a few things I dislike. So I decided to mostly adopt it's layout with some changes, and design a case which follows my design ideals - ending up with a very similar board.
 
 For any other questions, or problems with my board (if you decided to build one yourself) - feel free to contact me. I'm idling around and occasionally check my PMs on freenode (ebastler), am active on reddit (the_ebastler) and on discord (ebastler#8966).
 
 ## Big thanks to:
- - ai03 for both his [awesome tutorial](https://wiki.ai03.me/books/pcb-design/chapter/pcb-designer-guide) as well as his various footprints I used in my design - I don't know if I had been able to design this without his help.
- - The awesome people on grabcad for the [MX switch](https://grabcad.com/library/cherry-mx-switches-mx-1), [Cherry Stab](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and [pushbutton](https://grabcad.com/library/5mm-button-switch-1) models, [JST SH models](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823) and [WS6812 Mini models](https://grabcad.com/library/smd-ws2812b-led-1) which made my renders a whole lot prettier.
+ - ai03 for both his [great tutorial](https://wiki.ai03.me/books/pcb-design/chapter/pcb-designer-guide) as well as his various footprints I used in my design - I don't know if I had been able to design this without his help.
+ - The awesome people on grabcad for the [MX switch](https://grabcad.com/library/cherry-mx-switches-mx-1), [Cherry Stab](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and [pushbutton](https://grabcad.com/library/5mm-button-switch-1) models, [JST SH models](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823) and [WS6812 Mini models](https://grabcad.com/library/smd-ws2812b-led-1) which made my design a whole lot easier, and my renders prettier.
   - People on the MechKeys and Mechanische Tastaturen Deutschland discord servers who tirelessly answered my questions - from the noobiest to the most complicated ones.
