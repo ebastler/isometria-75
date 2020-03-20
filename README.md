@@ -40,12 +40,12 @@ The bottom shell follows the minimalist design of the top shell, consisting only
    From me - never. I am only using German ISO layout, and even chose the project name appropriately. Apart from the additional work, I already feel bad for making a keyboard that similar to the beautiful Evolv 75 [[2]](https://geekhack.org/index.php?topic=104531.0) without making the layout identical. Both case and PCB are open source though - feel free to fork them into an ANSI version yourself!
 
  * Why did you clone the Evolv/Satisfaction?
-
+ 
    I made my own design choices, and redesigned everything from scratch - however the evolv heavily influenced my design. I fell in love with it the first time I saw it, but it had a few things I dislike. So I decided to mostly adopt it's layout with some changes, and design a case which follows my design ideals - ending up with a (visually) very similar board.
 
 For any other questions, or problems with my board (if you decided to build one yourself) - feel free to contact me. I'm idling around and occasionally check my PMs on freenode (ebastler), am active on reddit (the_ebastler) and on discord (ebastler#8966).
 
 ## Big thanks to:
  - ai03 for both his [great tutorial](https://wiki.ai03.me/books/pcb-design/chapter/pcb-designer-guide) as well as his various footprints I used in my design - I don't know if I had been able to design this without his help.
- - The awesome people on grabcad for the [MX switch](https://grabcad.com/library/cherry-mx-switches-mx-1), [Cherry Stab](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and [pushbutton](https://grabcad.com/library/5mm-button-switch-1) models, [JST SH models](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823) and [WS6812 Mini models](https://grabcad.com/library/smd-ws2812b-led-1) which made my design a whole lot easier, and my renders prettier.
+ - The awesome people on grabcad for the [MX switch](https://grabcad.com/library/cherry-mx-switches-mx-1), [Cherry Stab](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and [pushbutton](https://grabcad.com/library/5mm-button-switch-1) models, [JST SH models](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823) and [WS2812 Mini models](https://grabcad.com/library/smd-ws2812b-led-1) which made my design a whole lot easier, and my renders prettier.
   - People on the MechKeys and Mechanische Tastaturen Deutschland discord servers who tirelessly answered my questions - from the noobiest to the most complicated ones.
