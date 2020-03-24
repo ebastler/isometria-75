@@ -4414,7 +4414,7 @@ Connection ~ 9150 1050
 Wire Wire Line
 	9350 1000 9350 1100
 Text GLabel 9950 4700 2    50   Input ~ 0
-LED+
++5V
 Text GLabel 9950 4850 2    50   Input ~ 0
 LED-
 Wire Wire Line

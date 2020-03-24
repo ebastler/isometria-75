@@ -170,7 +170,7 @@ F 3 "" H 5600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5700 1000 2    50   Output ~ 0
-LED+
++5V
 Text GLabel 5700 1100 2    50   Output ~ 0
 LED-
 Wire Wire Line
