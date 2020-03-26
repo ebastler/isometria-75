@@ -11,7 +11,7 @@ The case files will follow once they are ready - I am designing those in Autodes
 
 |![render_overview](/render/overview_top.png) |![render_detail](/render/detail_top.png)|
 |:-------------------------------------------:|:--------------------------------------:|
-|Render of the whole top shell                |Detail of the upper right corner        |
+|Render of the entire top shell               |Detail of the upper right corner        |
 
 
  ## Features
@@ -49,3 +49,4 @@ For any other questions, or problems with my board (if you decided to build one 
  - ai03 for both his [great tutorial](https://wiki.ai03.me/books/pcb-design/chapter/pcb-designer-guide) as well as his various footprints I used in my design - I don't know if I had been able to design this without his help.
  - The awesome people on grabcad for the [MX switch](https://grabcad.com/library/cherry-mx-switches-mx-1), [Cherry Stab](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and [pushbutton](https://grabcad.com/library/5mm-button-switch-1) models, [JST SH models](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823) and [WS2812 Mini models](https://grabcad.com/library/smd-ws2812b-led-1) which made my design a whole lot easier, and my renders prettier.
   - People on the MechKeys and Mechanische Tastaturen Deutschland discord servers who tirelessly answered my questions - from the noobiest to the most complicated ones.
+  - Propagandalf1 for all the advise, criticism and ideas for improvement
