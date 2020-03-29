@@ -6803,11 +6803,6 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.524) (layers *.Cu B.Mask)
       (net 104 "Net-(D274-Pad2)"))
-    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5E7C02C9) (tstamp 5E63E458)
