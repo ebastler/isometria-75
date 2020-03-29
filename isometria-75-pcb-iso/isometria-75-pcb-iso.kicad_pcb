@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1131,11 +1131,6 @@
       (net 2 +3V3))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5E6BDAC6)
@@ -1823,10 +1818,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 270) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 208 "Net-(D304-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -1869,10 +1864,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 221 "Net-(D316-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -1915,10 +1910,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 220 "Net-(D315-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -1961,10 +1956,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 219 "Net-(D314-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2007,10 +2002,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 218 "Net-(D313-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2053,10 +2048,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 217 "Net-(D312-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2099,10 +2094,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 216 "Net-(D311-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2188,10 +2183,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 214 "Net-(D310-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2234,10 +2229,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 213 "Net-(D309-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2280,10 +2275,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 212 "Net-(D308-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2326,10 +2321,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 211 "Net-(D307-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2372,10 +2367,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 210 "Net-(D306-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2418,10 +2413,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875 180) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 209 "Net-(D305-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2464,10 +2459,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 207 "Net-(D303-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2510,10 +2505,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 206 "Net-(D302-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2556,10 +2551,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 204 "Net-(D301-Pad1)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2602,10 +2597,10 @@
       (net 229 +5V))
     (pad 3 smd rect (at 1.75 -0.875) (size 1.6 0.85) (layers B.Cu B.Paste B.Mask)
       (net 205 "Net-(D301-Pad3)"))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SMD-WS2812B-Mini.step
+      (offset (xyz 0 0 1.905))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2753,6 +2748,11 @@
       (net 223 "Net-(C112-Pad1)"))
     (pad 1 smd rect (at 3.1 -1.85 270) (size 1.8 1.1) (layers B.Cu B.Paste B.Mask)
       (net 2 +3V3))
+    (model ${KIPRJMOD}/3d/Switch.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5B301BBE) (tstamp 5E6BDA73)
@@ -6141,10 +6141,10 @@
       (net 199 SPI_NSS))
     (pad 1 smd roundrect (at -2.5 2) (size 0.6 1.55) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SM05B-SRSS-TB.STEP
+      (offset (xyz 0 1.27 -0.254))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -7082,10 +7082,10 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E64D9E7/5E7C78A6)
-    (fp_text reference SW201 (at -4.7 -7.2 90) (layer F.SilkS)
+    (fp_text reference SW201 (at 4.173 -1.208 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Rotary_Encoder_Switch (at 0 7.9 90) (layer F.Fab)
+    (fp_text value Rotary_Encoder_Switch (at 5.316 10.222 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 7.5 2.5) (end 10.5 2.5) (layer F.Fab) (width 0.12))
@@ -7114,7 +7114,7 @@
     (fp_line (start 13.6 6) (end 13.6 8.4) (layer F.SilkS) (width 0.12))
     (fp_line (start 7.5 2) (end 7.5 3) (layer F.SilkS) (width 0.12))
     (fp_line (start 7 2.5) (end 8 2.5) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 3.6 3.8 90) (layer F.Fab)
+    (fp_text user %R (at 4.173 6.158 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad A thru_hole rect (at 0 0 90) (size 2 2) (drill 1) (layers *.Cu *.Mask)
@@ -7242,6 +7242,11 @@
       (net 197 "Net-(C110-Pad1)"))
     (pad 1 smd rect (at 3.1 -1.85 270) (size 1.8 1.1) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/3d/Switch.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5E7C02C9) (tstamp 5E63DC4E)
@@ -9055,10 +9060,10 @@
       (net 12 USB-D+))
     (pad 1 smd roundrect (at -2 2) (size 0.6 1.55) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3d/SM05B-SRSS-TB.STEP
+      (offset (xyz 0 1.27 -0.254))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 

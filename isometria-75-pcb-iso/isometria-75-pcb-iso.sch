@@ -170,7 +170,7 @@ F 3 "" H 5600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5700 1000 2    50   Output ~ 0
-LED+
++5V
 Text GLabel 5700 1100 2    50   Output ~ 0
 LED-
 Wire Wire Line
@@ -807,7 +807,7 @@ Wire Wire Line
 Text Notes 6250 950  0    50   ~ 0
 Don't look in here.\nSeriously. \nIt's ugly.\n
 Text Notes 7400 7500 0    50   ~ 0
-Isometric⁷⁵ - 75% blocked ISO layout keyboard
+Isometria⁷⁵ - 75% blocked ISO layout keyboard
 Text GLabel 4600 6450 2    50   Input ~ 0
 COL7
 Wire Wire Line
