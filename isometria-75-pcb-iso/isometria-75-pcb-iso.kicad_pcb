@@ -6753,7 +6753,7 @@
       (net 199 SPI_NSS))
     (pad 1 smd roundrect (at -2.5 2) (size 0.6 1.55) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (model ${KIPRJMOD}/3d/SM05B-SRSS-TB.STEP
+    (model ${KIPRJMOD}/3d/SM06B-SRSS-TB.STEP
       (offset (xyz 0 1.27 -0.254))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
