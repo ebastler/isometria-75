@@ -786,7 +786,7 @@ Text GLabel 2500 6550 0    50   Input ~ 0
 COL3
 Text GLabel 4600 5850 2    50   Input ~ 0
 COL4
-Text GLabel 4600 6450 2    50   Input ~ 0
+Text GLabel 4600 6050 2    50   Input ~ 0
 COL5
 Text GLabel 4600 6350 2    50   Input ~ 0
 COL6
@@ -851,7 +851,7 @@ U 5E6E13F7
 F0 "underglow" 50
 F1 "underglow.sch" 50
 $EndSheet
-Text GLabel 4600 6050 2    50   Output ~ 0
+Text GLabel 5350 6050 2    50   Output ~ 0
 UGLED
 Wire Wire Line
 	4600 6550 4150 6550

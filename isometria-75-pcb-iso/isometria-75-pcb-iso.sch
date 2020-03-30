@@ -786,9 +786,9 @@ Text GLabel 2500 6550 0    50   Input ~ 0
 COL3
 Text GLabel 4600 5850 2    50   Input ~ 0
 COL4
-Text GLabel 4600 6350 2    50   Input ~ 0
+Text GLabel 4600 6050 2    50   Input ~ 0
 COL5
-Text GLabel 4600 6450 2    50   Input ~ 0
+Text GLabel 4600 6350 2    50   Input ~ 0
 COL6
 Wire Wire Line
 	2500 6250 2850 6250
@@ -808,7 +808,7 @@ Text Notes 6250 950  0    50   ~ 0
 Don't look in here.\nSeriously. \nIt's ugly.\n
 Text Notes 7400 7500 0    50   ~ 0
 Isometria⁷⁵ - 75% blocked ISO layout keyboard
-Text GLabel 4600 6550 2    50   Input ~ 0
+Text GLabel 4600 6450 2    50   Input ~ 0
 COL7
 Wire Wire Line
 	4600 6450 4150 6450
@@ -839,7 +839,7 @@ Text GLabel 2500 5950 0    50   Input ~ 0
 ROW2
 Text GLabel 2500 5850 0    50   Input ~ 0
 ROW1
-Text GLabel 2500 5350 0    50   Input ~ 0
+Text GLabel 4600 6550 2    50   Input ~ 0
 ROW0
 Wire Wire Line
 	2500 5850 2850 5850
@@ -851,7 +851,7 @@ U 5E6E13F7
 F0 "underglow" 50
 F1 "underglow.sch" 50
 $EndSheet
-Text GLabel 4600 6050 2    50   Output ~ 0
+Text GLabel 2500 5350 0    50   Output ~ 0
 UGLED
 Wire Wire Line
 	4600 6550 4150 6550
