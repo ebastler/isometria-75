@@ -110,7 +110,7 @@ Wire Wire Line
 	950  3550 950  3750
 Connection ~ 950  3750
 $Sheet
-S 6200 650  1500 1150
+S 4900 650  1500 1150
 U 5E64D9E7
 F0 "matrix" 50
 F1 "matrix.sch" 50
@@ -161,46 +161,46 @@ Connection ~ 3950 3550
 $Comp
 L power:+5V #PWR0103
 U 1 1 5E658CC9
-P 5600 900
-F 0 "#PWR0103" H 5600 750 50  0001 C CNN
-F 1 "+5V" H 5450 1000 50  0000 C CNN
-F 2 "" H 5600 900 50  0001 C CNN
-F 3 "" H 5600 900 50  0001 C CNN
-	1    5600 900 
+P 4300 900
+F 0 "#PWR0103" H 4300 750 50  0001 C CNN
+F 1 "+5V" H 4150 1000 50  0000 C CNN
+F 2 "" H 4300 900 50  0001 C CNN
+F 3 "" H 4300 900 50  0001 C CNN
+	1    4300 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 5700 1000 2    50   Output ~ 0
+Text GLabel 4400 1000 2    50   Output ~ 0
 +5V
-Text GLabel 5700 1100 2    50   Output ~ 0
+Text GLabel 4400 1100 2    50   Output ~ 0
 LED-
 Wire Wire Line
-	5600 900  5600 1000
+	4300 900  4300 1000
 Wire Wire Line
-	5600 1000 5700 1000
+	4300 1000 4400 1000
 $Comp
 L Device:Q_NMOS_GSD Q101
 U 1 1 5E71ADB0
-P 5500 1350
-F 0 "Q101" H 5705 1396 50  0000 L CNN
-F 1 "AO3400A" H 5705 1305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 1450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf" H 5500 1350 50  0001 C CNN
-	1    5500 1350
+P 4200 1350
+F 0 "Q101" H 4405 1396 50  0000 L CNN
+F 1 "AO3400A" H 4405 1305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf" H 4200 1350 50  0001 C CNN
+	1    4200 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 1100 5600 1150
+	4300 1100 4300 1150
 Wire Wire Line
-	5600 1100 5700 1100
+	4300 1100 4400 1100
 $Comp
 L power:GND #PWR0106
 U 1 1 5E721452
-P 5600 1550
-F 0 "#PWR0106" H 5600 1300 50  0001 C CNN
-F 1 "GND" H 5605 1377 50  0000 C CNN
-F 2 "" H 5600 1550 50  0001 C CNN
-F 3 "" H 5600 1550 50  0001 C CNN
-	1    5600 1550
+P 4300 1550
+F 0 "#PWR0106" H 4300 1300 50  0001 C CNN
+F 1 "GND" H 4305 1377 50  0000 C CNN
+F 2 "" H 4300 1550 50  0001 C CNN
+F 3 "" H 4300 1550 50  0001 C CNN
+	1    4300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -260,15 +260,15 @@ Wire Wire Line
 $Comp
 L Device:R_Small R101
 U 1 1 5E6454D0
-P 5200 1350
-F 0 "R101" H 5250 1300 50  0000 L CNN
-F 1 "100" H 5250 1200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5200 1350 50  0001 C CNN
-F 3 "~" H 5200 1350 50  0001 C CNN
-	1    5200 1350
+P 3900 1350
+F 0 "R101" H 3950 1300 50  0000 L CNN
+F 1 "100" H 3950 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 1350 50  0001 C CNN
+F 3 "~" H 3900 1350 50  0001 C CNN
+	1    3900 1350
 	0    -1   1    0   
 $EndComp
-Text GLabel 5100 1350 0    50   Input ~ 0
+Text GLabel 3800 1350 0    50   Input ~ 0
 LED_PWM
 Text GLabel 4600 5950 2    50   Output ~ 0
 LED_PWM
@@ -530,16 +530,16 @@ Wire Wire Line
 Wire Notes Line style solid
 	550  2850 550  2000
 Wire Notes Line style solid
-	6100 1800 4600 1800
+	4800 1800 3300 1800
 Wire Notes Line style solid
-	4600 650  6100 650 
+	3300 650  4800 650 
 Text Notes 550  600  0    50   ~ 0
 USB connector
 Text Notes 2000 600  0    50   ~ 0
 SPI connector (BT LE)
 Text Notes 550  1950 0    50   ~ 0
 Voltage regulation + filtering
-Text Notes 4600 600  0    50   ~ 0
+Text Notes 3300 600  0    50   ~ 0
 LED PWM
 Wire Notes Line style solid
 	550  650  550  1800
@@ -550,9 +550,9 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	3200 650  3200 1800
 Wire Notes Line style solid
-	4600 650  4600 1800
+	3300 650  3300 1800
 Wire Notes Line style solid
-	6100 1800 6100 650 
+	4800 1800 4800 650 
 Wire Notes Line style solid
 	5950 2000 5950 2850
 $Comp
@@ -759,7 +759,7 @@ Wire Wire Line
 	4600 5950 4150 5950
 Wire Wire Line
 	4600 5850 4150 5850
-Text Notes 6250 950  0    50   ~ 0
+Text Notes 4950 950  0    50   ~ 0
 Don't look in here.\nSeriously. \nIt's ugly.\n
 Text Notes 7400 7500 0    50   ~ 0
 Isometria⁷⁵ - 75% blocked ISO layout keyboard
@@ -801,7 +801,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 5950 2850 5950
 $Sheet
-S 7850 650  1500 1150
+S 6550 650  1500 1150
 U 5E6E13F7
 F0 "underglow" 50
 F1 "underglow.sch" 50
@@ -820,16 +820,6 @@ Wire Wire Line
 	2500 5650 2850 5650
 Wire Wire Line
 	2500 5750 2850 5750
-Wire Notes Line style solid
-	3300 650  4500 650 
-Wire Notes Line style solid
-	4500 1800 3300 1800
-Wire Notes Line style solid
-	4500 650  4500 1800
-Wire Notes Line style solid
-	3300 650  3300 1800
-Text Notes 4000 600  2    50   ~ 0
-Expansion Header
 Wire Wire Line
 	4150 5450 4600 5450
 Wire Wire Line
