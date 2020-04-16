@@ -11,9 +11,9 @@ The case files will follow once they are ready - I am designing those in Autodes
 
 |![overview_top](/render/overview_top.png)|![detail_top](/render/detail_top.png)|
 |:----------------------------------------:|:----------------------------------------:|
-|Render of the entire top shell            |Detail of the upper right corner     |
+|Render of the entire top shell|Detail of the upper right corner|
 |![overview_rearside](/render/overview_rearside.png)|![overview_side](/render/overview_side.png)|
-|Rear/side view                                      |Side view (transparent material render sucks) |
+|Rear/side view|Side view (transparent material render sucks)|
 
 
  ## Features
