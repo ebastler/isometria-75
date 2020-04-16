@@ -9,17 +9,18 @@ The case files will follow once they are ready - I am designing those in Autodes
  
  The name isometria<sup>75</sup> has it's origin in the greek noun ἰσομετρία (in latin letters: isometria), meaning "equality of measure" [[1]](http://perseus.uchicago.edu/cgi-bin/philologic/getobject.pl?c.35:6:59.LSJ). This word ended up being included in various languages, among them english (isometric), with the same meaning. I chose it for two reasons - because this keyboard is only available in an ISO layout (sorry ANSI users - for once it is ne ANSI avail), but also, because I paid attention to only use u/4 spaces throughout my board. You will have a hard time finding any distance on it that's not a multiple of 4.75 mm.
 
-|![overview_top](/render/overview_top.png) |![detail_top](/render/detail_top.png)|
+|![overview_top](/render/overview_top.png)|![detail_top](/render/detail_top.png)|
 |:----------------------------------------:|:-----------------------------------:|
 |Render of the entire top shell            |Detail of the upper right corner     |
 
-|![overview_rearside](/render/overview_rearside.png) |![overview_side](/render/overview_side.png)   |
+|![overview_rearside](/render/overview_rearside.png)|![overview_side](/render/overview_side.png)|
 |:--------------------------------------------------:|:--------------------------------------------:|
 |Rear/side view                                      |Side view (transparent material render sucks) |
 
 
  ## Features
  * CNC'd top shell with integrated 4 mm plate (obviously, with cutouts for switch retention and PCB mount stabs)
+ * 6.8° typing angle
  * The PCB is equipped to fit 82 cherry MX-style switches
  * One 3 mm LED per switch (monochrome, dimmable only as one group)
  * 17 SK6812 Mini can be soldered to the bottom of the board for underglow
