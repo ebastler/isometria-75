@@ -12878,7 +12878,7 @@
   (gr_text USB (at 140.9954 112.0648) (layer B.SilkS) (tstamp 5E796BB6)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "isometria75 rev 1.0\ngithub.com/ebastler/isometria-75\nmpwr.xyz" (at 281.432 71.882) (layer B.SilkS)
+  (gr_text "isometria75 rev 1.0\ngithub.com/ebastler/isometria-75\nmpwr.xyz" (at 283.464 72.136) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left mirror))
   )
 
@@ -15405,7 +15405,7 @@
   (segment (start 165.468337 103.5304) (end 165.735 103.5304) (width 0.254) (layer B.Cu) (net 229))
   (segment (start 163.628937 101.691) (end 165.468337 103.5304) (width 0.254) (layer B.Cu) (net 229))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E9E3509) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5EA74275) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.1905)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.508) (smoothing chamfer) (radius 0.2))
@@ -20357,7 +20357,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E9E3506) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5EA74272) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.1905)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.508) (smoothing chamfer) (radius 0.2))
