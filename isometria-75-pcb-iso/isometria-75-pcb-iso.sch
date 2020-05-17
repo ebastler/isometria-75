@@ -723,7 +723,7 @@ COL15
 Text GLabel 2400 5750 0    50   Input ~ 0
 COL14
 Connection ~ 1950 4850
-Text GLabel 2400 4950 0    50   Input ~ 0
+Text GLabel 2400 4950 0    50   Output ~ 0
 COL13
 Wire Wire Line
 	2400 4950 2750 4950
@@ -731,21 +731,21 @@ Wire Wire Line
 	2400 5750 2750 5750
 Wire Wire Line
 	2400 5850 2750 5850
-Text GLabel 4500 4750 2    50   Input ~ 0
+Text GLabel 4500 4750 2    50   Output ~ 0
 COL12
-Text GLabel 2400 4150 0    50   Input ~ 0
+Text GLabel 2400 4150 0    50   Output ~ 0
 COL11
 Wire Wire Line
 	4050 5050 4500 5050
-Text GLabel 2400 4050 0    50   Input ~ 0
+Text GLabel 2400 4050 0    50   Output ~ 0
 COL10
 Wire Wire Line
 	4050 4950 4500 4950
 Wire Wire Line
 	1250 3250 2650 3250
-Text GLabel 2400 4350 0    50   Input ~ 0
+Text GLabel 2400 4350 0    50   Output ~ 0
 COL9
-Text GLabel 2400 5650 0    50   Input ~ 0
+Text GLabel 2400 5650 0    50   Output ~ 0
 COL8
 Wire Wire Line
 	2400 4150 2750 4150
@@ -753,19 +753,19 @@ Wire Wire Line
 	2400 4050 2750 4050
 Wire Wire Line
 	1950 4850 2750 4850
-Text GLabel 2400 5950 0    50   Input ~ 0
+Text GLabel 2400 5950 0    50   Output ~ 0
 COL0
-Text GLabel 2400 6050 0    50   Input ~ 0
+Text GLabel 2400 6050 0    50   Output ~ 0
 COL1
-Text GLabel 2400 6150 0    50   Input ~ 0
+Text GLabel 2400 6150 0    50   Output ~ 0
 COL2
-Text GLabel 2400 6250 0    50   Input ~ 0
+Text GLabel 2400 6250 0    50   Output ~ 0
 COL3
-Text GLabel 4500 5550 2    50   Input ~ 0
+Text GLabel 4500 5550 2    50   Output ~ 0
 COL4
-Text GLabel 4500 5750 2    50   Input ~ 0
+Text GLabel 4500 5750 2    50   Output ~ 0
 COL5
-Text GLabel 4500 6050 2    50   Input ~ 0
+Text GLabel 4500 6050 2    50   Output ~ 0
 COL6
 Wire Wire Line
 	2400 5950 2750 5950
@@ -785,7 +785,7 @@ Text Notes 4950 950  0    50   ~ 0
 Don't look in here.\nSeriously. \nIt's ugly.\n
 Text Notes 7400 7500 0    50   ~ 0
 Isometria⁷⁵ - 75% blocked ISO layout keyboard
-Text GLabel 4500 6150 2    50   Input ~ 0
+Text GLabel 4500 6150 2    50   Output ~ 0
 COL7
 Wire Wire Line
 	4500 6150 4050 6150

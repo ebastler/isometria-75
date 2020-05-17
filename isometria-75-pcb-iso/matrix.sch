@@ -4583,37 +4583,37 @@ ROW0
 Wire Wire Line
 	850  1500 950  1500
 Connection ~ 950  1500
-Text GLabel 1450 1000 1    50   Output ~ 0
+Text GLabel 1450 1000 1    50   Input ~ 0
 COL0
-Text GLabel 1950 1000 1    50   Output ~ 0
+Text GLabel 1950 1000 1    50   Input ~ 0
 COL1
-Text GLabel 2550 1000 1    50   Output ~ 0
+Text GLabel 2550 1000 1    50   Input ~ 0
 COL2
-Text GLabel 3100 1000 1    50   Output ~ 0
+Text GLabel 3100 1000 1    50   Input ~ 0
 COL3
-Text GLabel 3650 1000 1    50   Output ~ 0
+Text GLabel 3650 1000 1    50   Input ~ 0
 COL4
-Text GLabel 4200 1000 1    50   Output ~ 0
+Text GLabel 4200 1000 1    50   Input ~ 0
 COL5
-Text GLabel 4750 1000 1    50   Output ~ 0
+Text GLabel 4750 1000 1    50   Input ~ 0
 COL6
-Text GLabel 5300 1000 1    50   Output ~ 0
+Text GLabel 5300 1000 1    50   Input ~ 0
 COL7
-Text GLabel 5850 1000 1    50   Output ~ 0
+Text GLabel 5850 1000 1    50   Input ~ 0
 COL8
-Text GLabel 6400 1000 1    50   Output ~ 0
+Text GLabel 6400 1000 1    50   Input ~ 0
 COL9
-Text GLabel 6950 1000 1    50   Output ~ 0
+Text GLabel 6950 1000 1    50   Input ~ 0
 COL10
-Text GLabel 7500 1000 1    50   Output ~ 0
+Text GLabel 7500 1000 1    50   Input ~ 0
 COL11
-Text GLabel 8050 1000 1    50   Output ~ 0
+Text GLabel 8050 1000 1    50   Input ~ 0
 COL12
-Text GLabel 8600 1000 1    50   Output ~ 0
+Text GLabel 8600 1000 1    50   Input ~ 0
 COL13
-Text GLabel 9150 1000 1    50   Output ~ 0
+Text GLabel 9150 1000 1    50   Input ~ 0
 COL14
-Text GLabel 9350 1000 1    50   Output ~ 0
+Text GLabel 9350 1000 1    50   Input ~ 0
 COL15
 Wire Wire Line
 	1450 1000 1450 1050
