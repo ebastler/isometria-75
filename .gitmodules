@@ -7,3 +7,6 @@
 [submodule "isometria-75-pcb-iso/Connectors_JST.pretty"]
 	path = isometria-75-pcb-iso/Connectors_JST.pretty
 	url = https://github.com/KiCad/Connectors_JST.pretty
+[submodule "kicad-keyboard-parts.pretty"]
+	path = kicad-keyboard-parts.pretty
+	url = https://github.com/ebastler/kicad-keyboard-parts.pretty
