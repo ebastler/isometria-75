@@ -2,4 +2,5 @@
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name isometria-75-pcb-iso-rescue)(type Legacy)(uri ${KIPRJMOD}/isometria-75-pcb-iso-rescue.lib)(options "")(descr ""))
+  (lib (name kicad-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
 )
