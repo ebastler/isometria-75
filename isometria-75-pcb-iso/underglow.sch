@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:isometria-75-pcb-iso-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268

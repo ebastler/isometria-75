@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:isometria-75-pcb-iso-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -409,7 +410,7 @@ F 4 "C52923" H 1850 2450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:XC6206PxxxMR U101
+L kicad-keyboard-parts:XC6206PxxxMR-Regulator_Linear U101
 U 1 1 5E63D7AB
 P 2800 2300
 F 0 "U101" H 2800 2542 50  0000 C CNN
