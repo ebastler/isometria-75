@@ -1,12 +1,9 @@
-[submodule "isometria-75-pcb-iso/random-keyboard-parts.pretty"]
-	path = isometria-75-pcb-iso/random-keyboard-parts.pretty
-	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
 [submodule "isometria-75-pcb-iso/MX_Alps_Hybrid.pretty"]
 	path = isometria-75-pcb-iso/MX_Alps_Hybrid.pretty
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
 [submodule "isometria-75-pcb-iso/Connectors_JST.pretty"]
 	path = isometria-75-pcb-iso/Connectors_JST.pretty
 	url = https://github.com/KiCad/Connectors_JST.pretty
-[submodule "master"]
+[submodule "isometria-75-pcb-iso/kicad-keyboard-parts.pretty"]
 	path = isometria-75-pcb-iso/kicad-keyboard-parts.pretty
 	url = https://github.com/ebastler/kicad-keyboard-parts.pretty
