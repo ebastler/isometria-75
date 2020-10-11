@@ -7,3 +7,6 @@
 [submodule "isometria-75-pcb-iso/kicad-keyboard-parts.pretty"]
 	path = isometria-75-pcb-iso/kicad-keyboard-parts.pretty
 	url = https://github.com/ebastler/kicad-keyboard-parts.pretty
+[submodule "isometria-75-pcb-iso/logo-branding.pretty"]
+	path = isometria-75-pcb-iso/logo-branding.pretty
+	url = https://github.com/ebastler/logo-branding.pretty
