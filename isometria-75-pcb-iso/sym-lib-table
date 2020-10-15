@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
-  (lib (name isometria-75-pcb-iso-rescue)(type Legacy)(uri ${KIPRJMOD}/isometria-75-pcb-iso-rescue.lib)(options "")(descr ""))
   (lib (name kicad-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
 )
