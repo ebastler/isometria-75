@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
-  (lib (name Connectors_JST)(type KiCad)(uri ${KIPRJMOD}/Connectors_JST.pretty)(options "")(descr ""))
-  (lib (name kicad-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/kicad-keyboard-parts.pretty)(options "")(descr ""))
-  (lib (name logo-branding)(type KiCad)(uri ${KIPRJMOD}/logo-branding.pretty)(options "")(descr ""))
-)
