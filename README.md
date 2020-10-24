@@ -1,8 +1,6 @@
 # isometria<sup>75</sup>
 
-## This is a work in progress - do not expect anything in this repo to be working and/or complete yet!
-PCB Prototypes are ordered - I will update the repo once they have been confirmed to be working
-The case files will follow once they are ready - I am designing those in Autodesk Fusion and don't want to have different design stages in github and the autodesk cloud.
+The first prototype is sitting on my desk and works perfectly - clearance for weights and battery is currently wrong, so the intended battery will not fit in the case.
 
 ----
  
@@ -10,12 +8,12 @@ The case files will follow once they are ready - I am designing those in Autodes
 
 |![pcb_bottom](render/isometria-75-pcb-iso_bottom.png)|![pcb_top](render/isometria-75-pcb-iso_top.png)|
 |:----------------------------------------:|:----------------------------------------:|
-|![overview_top](render/render_bottom3.png)|![detail_top](render/render_frontpartial.png)|
-|![overview_rearside](render/render_rearside.png)|![overview_side](render/render_side.png)|
+|![overview_top](https://mpwr.xyz/projects/isometria75/full/proto_v1_nocaps.jpg)|![detail_top](https://mpwr.xyz/projects/isometria75/full/proto_v1_1.JPG)|
+|![overview_rearside](https://mpwr.xyz/projects/isometria75/full/proto_v1_3.JPG)|![overview_side](https://mpwr.xyz/projects/isometria75/full/proto_v1_4.JPG)|
 
 
  ## Features
- * CNC'd top shell with integrated 4 mm plate (obviously, with cutouts for switch retention and PCB mount stabs)
+ * CNC'd top shell with integrated 3 mm plate (obviously, with cutouts for switch retention and PCB mount stabs)
  * 6.8° typing angle
  * The PCB is equipped to fit 82 cherry MX-style switches
  * One 3 mm LED per switch (monochrome, dimmable only as one group)
@@ -43,11 +41,11 @@ https://geekhack.org/index.php?topic=106060.msg2896354
 
  * When will there be an ANSI version?
 
-   From me - never. I am only using German ISO layout, and even chose the project name appropriately. Apart from the additional work, I already feel bad for making a keyboard that similar to the beautiful Evolv 75% [[2]](https://geekhack.org/index.php?topic=104531.0) without making the layout identical. Both case and PCB are open source though - feel free to fork them into an ANSI version yourself!
+   Even though I planned not to do ANSI, I actually went with multi-layout for v2! Stay tuned!
 
  * Why did you clone the Evolv/Satisfaction?
  
-   I made my own design choices, and redesigned everything from scratch - however the evolv heavily influenced my design. I fell in love with it the first time I saw it, but it had a few things I dislike. So I decided to mostly adopt it's layout with some changes, and design a case which follows my design ideals - ending up with a (visually) very similar board - The standalone-features of the evolv are it's premium materials and generative design, and I did not include either.
+   I made my own design choices, and designed everything from scratch - however the evolv heavily influenced my design. I fell in love with it the first time I saw it, but it had a few things I dislike. So I decided to mostly adopt it's layout with some changes, and design a case which follows my design ideals - ending up with a (visually) very similar top enclosure - The standalone-features of the evolv are it's premium materials, construction and generative design, and I did not include either.
 
 For any other questions, or problems with my board (if you decided to build one yourself) - feel free to contact me. I'm idling around and occasionally check my PMs on freenode (ebastler), am active on reddit (the_ebastler) and on discord (ebastler#8966).
 
@@ -57,3 +55,4 @@ For any other questions, or problems with my board (if you decided to build one 
   - People on the MechKeys and Mechanische Tastaturen Deutschland discord servers who tirelessly answered my questions - from the noobiest to the most complicated ones.
   - [Propagandalf1](https://github.com/Propagandalf1) for all the advise, criticism and ideas for improvement
   - Pseudoephedrin and Lux for checking my PCB layouts for errors
+  - Hendrik for milling my proto
