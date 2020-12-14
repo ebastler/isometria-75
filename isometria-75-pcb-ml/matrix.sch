@@ -2194,10 +2194,10 @@ L Device:C_Small C10
 U 1 1 6349F64A
 P 17800 1400
 F 0 "C10" H 17650 1300 50  0000 L CNN
-F 1 "100nF" H 17650 1200 50  0000 L CNN
+F 1 "100n" H 17650 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17800 1400 50  0001 C CNN
 F 3 "~" H 17800 1400 50  0001 C CNN
-F 4 "C1525" H 17800 1400 50  0001 C CNN "LCSC"
+F 4 "C386152" H 17800 1400 50  0001 C CNN "LCSC"
 	1    17800 1400
 	1    0    0    -1  
 $EndComp
@@ -2207,10 +2207,10 @@ L Device:C_Small C9
 U 1 1 634A1C5F
 P 17800 1000
 F 0 "C9" H 17650 1100 50  0000 L CNN
-F 1 "100nF" H 17650 1200 50  0000 L CNN
+F 1 "100n" H 17650 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17800 1000 50  0001 C CNN
 F 3 "~" H 17800 1000 50  0001 C CNN
-F 4 "C1525" H 17800 1000 50  0001 C CNN "LCSC"
+F 4 "C386152" H 17800 1000 50  0001 C CNN "LCSC"
 	1    17800 1000
 	1    0    0    -1  
 $EndComp
@@ -2242,7 +2242,7 @@ F 0 "R9" H 18000 1100 50  0000 L CNN
 F 1 "10k" H 18000 1000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17950 1000 50  0001 C CNN
 F 3 "~" H 17950 1000 50  0001 C CNN
-F 4 "C25744" H 17950 1000 50  0001 C CNN "LCSC"
+F 4 "C384294" H 17950 1000 50  0001 C CNN "LCSC"
 	1    17950 1000
 	1    0    0    -1  
 $EndComp
@@ -2257,7 +2257,7 @@ F 0 "R24" H 18000 1400 50  0000 L CNN
 F 1 "10k" H 18000 1300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17950 1400 50  0001 C CNN
 F 3 "~" H 17950 1400 50  0001 C CNN
-F 4 "C25744" H 17950 1400 50  0001 C CNN "LCSC"
+F 4 "C384294" H 17950 1400 50  0001 C CNN "LCSC"
 	1    17950 1400
 	1    0    0    -1  
 $EndComp
@@ -2380,6 +2380,7 @@ F 0 "D1" H 1700 1517 50  0000 C CNN
 F 1 "BAV70" H 1700 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 1700 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1700 1300 50  0001 C CNN
+F 4 "C727123" H 1700 1300 50  0001 C CNN "LCSC"
 	1    1700 1300
 	-1   0    0    -1  
 $EndComp
@@ -2397,6 +2398,7 @@ F 0 "D2" H 4200 1517 50  0000 C CNN
 F 1 "BAV70" H 4200 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 4200 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4200 1300 50  0001 C CNN
+F 4 "C727123" H 4200 1300 50  0001 C CNN "LCSC"
 	1    4200 1300
 	-1   0    0    -1  
 $EndComp
@@ -2416,6 +2418,7 @@ F 0 "D3" H 6200 1517 50  0000 C CNN
 F 1 "BAV70" H 6200 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 6200 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6200 1300 50  0001 C CNN
+F 4 "C727123" H 6200 1300 50  0001 C CNN "LCSC"
 	1    6200 1300
 	1    0    0    -1  
 $EndComp
@@ -2433,6 +2436,7 @@ F 0 "D4" H 8200 1517 50  0000 C CNN
 F 1 "BAV70" H 8200 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 8200 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8200 1300 50  0001 C CNN
+F 4 "C727123" H 8200 1300 50  0001 C CNN "LCSC"
 	1    8200 1300
 	-1   0    0    -1  
 $EndComp
@@ -2448,6 +2452,7 @@ F 0 "D5" H 10200 1517 50  0000 C CNN
 F 1 "BAV70" H 10200 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 10200 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10200 1300 50  0001 C CNN
+F 4 "C727123" H 10200 1300 50  0001 C CNN "LCSC"
 	1    10200 1300
 	-1   0    0    -1  
 $EndComp
@@ -2463,6 +2468,7 @@ F 0 "D6" H 12200 1517 50  0000 C CNN
 F 1 "BAV70" H 12200 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 12200 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12200 1300 50  0001 C CNN
+F 4 "C727123" H 12200 1300 50  0001 C CNN "LCSC"
 	1    12200 1300
 	-1   0    0    -1  
 $EndComp
@@ -2478,6 +2484,7 @@ F 0 "D7" H 14200 1517 50  0000 C CNN
 F 1 "BAV70" H 14200 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 14200 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14200 1300 50  0001 C CNN
+F 4 "C727123" H 14200 1300 50  0001 C CNN "LCSC"
 	1    14200 1300
 	-1   0    0    -1  
 $EndComp
@@ -2489,6 +2496,7 @@ F 0 "D8" H 16200 1517 50  0000 C CNN
 F 1 "BAV70" H 16200 1426 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 16200 1300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16200 1300 50  0001 C CNN
+F 4 "C727123" H 16200 1300 50  0001 C CNN "LCSC"
 	1    16200 1300
 	-1   0    0    -1  
 $EndComp
@@ -2502,6 +2510,7 @@ F 0 "D9" H 1700 2217 50  0000 C CNN
 F 1 "BAV70" H 1700 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 1700 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1700 2000 50  0001 C CNN
+F 4 "C727123" H 1700 2000 50  0001 C CNN "LCSC"
 	1    1700 2000
 	-1   0    0    -1  
 $EndComp
@@ -2519,6 +2528,7 @@ F 0 "D10" H 4200 2217 50  0000 C CNN
 F 1 "BAV70" H 4200 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 4200 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4200 2000 50  0001 C CNN
+F 4 "C727123" H 4200 2000 50  0001 C CNN "LCSC"
 	1    4200 2000
 	-1   0    0    -1  
 $EndComp
@@ -2538,6 +2548,7 @@ F 0 "D11" H 6200 2217 50  0000 C CNN
 F 1 "BAV70" H 6200 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 6200 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6200 2000 50  0001 C CNN
+F 4 "C727123" H 6200 2000 50  0001 C CNN "LCSC"
 	1    6200 2000
 	-1   0    0    -1  
 $EndComp
@@ -2557,6 +2568,7 @@ F 0 "D12" H 8200 2217 50  0000 C CNN
 F 1 "BAV70" H 8200 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 8200 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8200 2000 50  0001 C CNN
+F 4 "C727123" H 8200 2000 50  0001 C CNN "LCSC"
 	1    8200 2000
 	-1   0    0    -1  
 $EndComp
@@ -2576,6 +2588,7 @@ F 0 "D13" H 10200 2217 50  0000 C CNN
 F 1 "BAV70" H 10200 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 10200 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10200 2000 50  0001 C CNN
+F 4 "C727123" H 10200 2000 50  0001 C CNN "LCSC"
 	1    10200 2000
 	-1   0    0    -1  
 $EndComp
@@ -2603,6 +2616,7 @@ F 0 "D14" H 12200 2217 50  0000 C CNN
 F 1 "BAV70" H 12200 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 12200 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12200 2000 50  0001 C CNN
+F 4 "C727123" H 12200 2000 50  0001 C CNN "LCSC"
 	1    12200 2000
 	-1   0    0    -1  
 $EndComp
@@ -2614,6 +2628,7 @@ F 0 "D15" H 14200 2217 50  0000 C CNN
 F 1 "BAV70" H 14200 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 14200 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14200 2000 50  0001 C CNN
+F 4 "C727123" H 14200 2000 50  0001 C CNN "LCSC"
 	1    14200 2000
 	-1   0    0    -1  
 $EndComp
@@ -2633,6 +2648,7 @@ F 0 "D16" H 16200 2217 50  0000 C CNN
 F 1 "BAV70" H 16200 2126 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 16200 2000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16200 2000 50  0001 C CNN
+F 4 "C727123" H 16200 2000 50  0001 C CNN "LCSC"
 	1    16200 2000
 	-1   0    0    -1  
 $EndComp
@@ -2648,6 +2664,7 @@ F 0 "D17" H 1700 2917 50  0000 C CNN
 F 1 "BAV70" H 1700 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 1700 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1700 2700 50  0001 C CNN
+F 4 "C727123" H 1700 2700 50  0001 C CNN "LCSC"
 	1    1700 2700
 	-1   0    0    -1  
 $EndComp
@@ -2665,6 +2682,7 @@ F 0 "D18" H 5200 2917 50  0000 C CNN
 F 1 "BAV70" H 5200 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 5200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5200 2700 50  0001 C CNN
+F 4 "C727123" H 5200 2700 50  0001 C CNN "LCSC"
 	1    5200 2700
 	-1   0    0    -1  
 $EndComp
@@ -2684,6 +2702,7 @@ F 0 "D19" H 7200 2917 50  0000 C CNN
 F 1 "BAV70" H 7200 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 7200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7200 2700 50  0001 C CNN
+F 4 "C727123" H 7200 2700 50  0001 C CNN "LCSC"
 	1    7200 2700
 	-1   0    0    -1  
 $EndComp
@@ -2703,6 +2722,7 @@ F 0 "D20" H 9200 2917 50  0000 C CNN
 F 1 "BAV70" H 9200 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 9200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9200 2700 50  0001 C CNN
+F 4 "C727123" H 9200 2700 50  0001 C CNN "LCSC"
 	1    9200 2700
 	-1   0    0    -1  
 $EndComp
@@ -2722,6 +2742,7 @@ F 0 "D21" H 11200 2917 50  0000 C CNN
 F 1 "BAV70" H 11200 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 11200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 11200 2700 50  0001 C CNN
+F 4 "C727123" H 11200 2700 50  0001 C CNN "LCSC"
 	1    11200 2700
 	-1   0    0    -1  
 $EndComp
@@ -2741,6 +2762,7 @@ F 0 "D22" H 13200 2917 50  0000 C CNN
 F 1 "BAV70" H 13200 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 13200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 13200 2700 50  0001 C CNN
+F 4 "C727123" H 13200 2700 50  0001 C CNN "LCSC"
 	1    13200 2700
 	-1   0    0    -1  
 $EndComp
@@ -2760,6 +2782,7 @@ F 0 "D23" H 15200 2917 50  0000 C CNN
 F 1 "BAV70" H 15200 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15200 2700 50  0001 C CNN
+F 4 "C727123" H 15200 2700 50  0001 C CNN "LCSC"
 	1    15200 2700
 	-1   0    0    -1  
 $EndComp
@@ -2779,6 +2802,7 @@ F 0 "D24" H 16200 2917 50  0000 C CNN
 F 1 "BAV70" H 16200 2826 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 16200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16200 2700 50  0001 C CNN
+F 4 "C727123" H 16200 2700 50  0001 C CNN "LCSC"
 	1    16200 2700
 	-1   0    0    -1  
 $EndComp
@@ -2794,6 +2818,7 @@ F 0 "D25" H 1700 3617 50  0000 C CNN
 F 1 "BAV70" H 1700 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 1700 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1700 3400 50  0001 C CNN
+F 4 "C727123" H 1700 3400 50  0001 C CNN "LCSC"
 	1    1700 3400
 	-1   0    0    -1  
 $EndComp
@@ -2811,6 +2836,7 @@ F 0 "D26" H 5200 3617 50  0000 C CNN
 F 1 "BAV70" H 5200 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 5200 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5200 3400 50  0001 C CNN
+F 4 "C727123" H 5200 3400 50  0001 C CNN "LCSC"
 	1    5200 3400
 	-1   0    0    -1  
 $EndComp
@@ -2830,6 +2856,7 @@ F 0 "D27" H 7200 3617 50  0000 C CNN
 F 1 "BAV70" H 7200 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 7200 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7200 3400 50  0001 C CNN
+F 4 "C727123" H 7200 3400 50  0001 C CNN "LCSC"
 	1    7200 3400
 	-1   0    0    -1  
 $EndComp
@@ -2849,6 +2876,7 @@ F 0 "D28" H 9200 3617 50  0000 C CNN
 F 1 "BAV70" H 9200 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 9200 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9200 3400 50  0001 C CNN
+F 4 "C727123" H 9200 3400 50  0001 C CNN "LCSC"
 	1    9200 3400
 	-1   0    0    -1  
 $EndComp
@@ -2868,6 +2896,7 @@ F 0 "D29" H 11200 3617 50  0000 C CNN
 F 1 "BAV70" H 11200 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 11200 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 11200 3400 50  0001 C CNN
+F 4 "C727123" H 11200 3400 50  0001 C CNN "LCSC"
 	1    11200 3400
 	-1   0    0    -1  
 $EndComp
@@ -2887,6 +2916,7 @@ F 0 "D30" H 13200 3617 50  0000 C CNN
 F 1 "BAV70" H 13200 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 13200 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 13200 3400 50  0001 C CNN
+F 4 "C727123" H 13200 3400 50  0001 C CNN "LCSC"
 	1    13200 3400
 	-1   0    0    -1  
 $EndComp
@@ -2906,6 +2936,7 @@ F 0 "D31" H 15200 3617 50  0000 C CNN
 F 1 "BAV70" H 15200 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15200 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15200 3400 50  0001 C CNN
+F 4 "C727123" H 15200 3400 50  0001 C CNN "LCSC"
 	1    15200 3400
 	-1   0    0    -1  
 $EndComp
@@ -2926,6 +2957,7 @@ F 0 "D32" H 17550 3617 50  0000 C CNN
 F 1 "BAV70" H 17550 3526 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17550 3400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17550 3400 50  0001 C CNN
+F 4 "C727123" H 17550 3400 50  0001 C CNN "LCSC"
 	1    17550 3400
 	1    0    0    -1  
 $EndComp
@@ -2949,6 +2981,7 @@ F 0 "D33" H 2150 4317 50  0000 C CNN
 F 1 "BAV70" H 2150 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 2150 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 4100 50  0001 C CNN
+F 4 "C727123" H 2150 4100 50  0001 C CNN "LCSC"
 	1    2150 4100
 	-1   0    0    -1  
 $EndComp
@@ -2969,6 +3002,7 @@ F 0 "D34" H 4200 4317 50  0000 C CNN
 F 1 "BAV70" H 4200 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 4200 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4200 4100 50  0001 C CNN
+F 4 "C727123" H 4200 4100 50  0001 C CNN "LCSC"
 	1    4200 4100
 	-1   0    0    -1  
 $EndComp
@@ -2988,6 +3022,7 @@ F 0 "D35" H 6200 4317 50  0000 C CNN
 F 1 "BAV70" H 6200 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 6200 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6200 4100 50  0001 C CNN
+F 4 "C727123" H 6200 4100 50  0001 C CNN "LCSC"
 	1    6200 4100
 	-1   0    0    -1  
 $EndComp
@@ -3007,6 +3042,7 @@ F 0 "D36" H 8200 4317 50  0000 C CNN
 F 1 "BAV70" H 8200 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 8200 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8200 4100 50  0001 C CNN
+F 4 "C727123" H 8200 4100 50  0001 C CNN "LCSC"
 	1    8200 4100
 	-1   0    0    -1  
 $EndComp
@@ -3026,6 +3062,7 @@ F 0 "D37" H 10200 4317 50  0000 C CNN
 F 1 "BAV70" H 10200 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 10200 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10200 4100 50  0001 C CNN
+F 4 "C727123" H 10200 4100 50  0001 C CNN "LCSC"
 	1    10200 4100
 	-1   0    0    -1  
 $EndComp
@@ -3045,6 +3082,7 @@ F 0 "D38" H 12200 4317 50  0000 C CNN
 F 1 "BAV70" H 12200 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 12200 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12200 4100 50  0001 C CNN
+F 4 "C727123" H 12200 4100 50  0001 C CNN "LCSC"
 	1    12200 4100
 	-1   0    0    -1  
 $EndComp
@@ -3064,6 +3102,7 @@ F 0 "D39" H 15200 4317 50  0000 C CNN
 F 1 "BAV70" H 15200 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15200 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15200 4100 50  0001 C CNN
+F 4 "C727123" H 15200 4100 50  0001 C CNN "LCSC"
 	1    15200 4100
 	-1   0    0    -1  
 $EndComp
@@ -3083,6 +3122,7 @@ F 0 "D40" H 16200 4317 50  0000 C CNN
 F 1 "BAV70" H 16200 4226 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 16200 4100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16200 4100 50  0001 C CNN
+F 4 "C727123" H 16200 4100 50  0001 C CNN "LCSC"
 	1    16200 4100
 	-1   0    0    -1  
 $EndComp
@@ -3098,6 +3138,7 @@ F 0 "D41" H 2150 5017 50  0000 C CNN
 F 1 "BAV70" H 2150 4926 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 2150 4800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 4800 50  0001 C CNN
+F 4 "C727123" H 2150 4800 50  0001 C CNN "LCSC"
 	1    2150 4800
 	-1   0    0    -1  
 $EndComp
@@ -3117,6 +3158,7 @@ F 0 "D42" H 4200 5017 50  0000 C CNN
 F 1 "BAV70" H 4200 4926 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 4200 4800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4200 4800 50  0001 C CNN
+F 4 "C727123" H 4200 4800 50  0001 C CNN "LCSC"
 	1    4200 4800
 	-1   0    0    -1  
 $EndComp
@@ -3136,6 +3178,7 @@ F 0 "D43" H 12200 5017 50  0000 C CNN
 F 1 "BAV70" H 12200 4926 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 12200 4800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12200 4800 50  0001 C CNN
+F 4 "C727123" H 12200 4800 50  0001 C CNN "LCSC"
 	1    12200 4800
 	-1   0    0    -1  
 $EndComp
@@ -3155,6 +3198,7 @@ F 0 "D44" H 15200 5017 50  0000 C CNN
 F 1 "BAV70" H 15200 4926 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15200 4800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15200 4800 50  0001 C CNN
+F 4 "C727123" H 15200 4800 50  0001 C CNN "LCSC"
 	1    15200 4800
 	-1   0    0    -1  
 $EndComp
@@ -3174,6 +3218,7 @@ F 0 "D45" H 16200 5017 50  0000 C CNN
 F 1 "BAV70" H 16200 4926 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 16200 4800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16200 4800 50  0001 C CNN
+F 4 "C727123" H 16200 4800 50  0001 C CNN "LCSC"
 	1    16200 4800
 	-1   0    0    -1  
 $EndComp
